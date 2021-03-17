@@ -1,6 +1,6 @@
-##建立來源
+## 建立來源
 
-####複製專案：
+#### 複製專案：
 <https://github.com/abcd1236542000/work-architecture-base>
 
 ```sh
@@ -8,7 +8,7 @@ git clone https://github.com/abcd1236542000/work-architecture-base
 ```
 -------------
 
-####Local端使用：
+#### Local端使用：
 
 安裝相依套件
 ```sh
@@ -28,10 +28,10 @@ php artisan serve --port=80
 ```
 -------------
 
-####heroku 設定：
+#### heroku 設定：
 此專案新增 `Procfile`檔案
 
-####heroku dashboard 設定環境變數
+#### heroku dashboard 設定環境變數
 指令產生key
 ```sh
 php artisan key:generate --show
